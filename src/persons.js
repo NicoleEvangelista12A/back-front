@@ -3,7 +3,7 @@ const persons = [
     name: "Nicole Evangelista",
     email: "evangelistanicole@gmail.com",
     age: 12,
-    nickname: "nicolekawaii123",
+    nickname: "nicolekawaii1234",
   },
   {
     name: "Kamilla Ribeiro",
@@ -20,8 +20,8 @@ const persons = [
   {
     name: "Gabriel Scuoteguazza Portilho",
     email: "representantemagnanimosoberanosupremo@gmail.com",
-    age: 70,
-    nickname: "gaybriel",
+    age: 90,
+    nickname: "gayybriel",
   },
 ]
 export {persons}
