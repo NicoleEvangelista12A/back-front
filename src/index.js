@@ -1,14 +1,14 @@
 import express from "express"
-import person from './person.js';
+import { persons } from "./persons.js";
 import cors from "cors"
 const app = express()
-const port = 3000
+const port = 3333
 app.use(cors())
 
 // GET, POST, DELETE, PATCH, PUT
 
 app.get("/", (request, response) => {
-  response.json(persons)
+  response.json( persons )
 })
 
 app.listen(port, () => {
